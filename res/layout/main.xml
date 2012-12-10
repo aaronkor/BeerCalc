@@ -4,70 +4,21 @@
     android:layout_height="fill_parent" 
     android:orientation="vertical">
 
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal" 
-            android:layout_gravity="center_horizontal">
-
-            <LinearLayout android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical" >
-                <TextView
-                    android:layout_width="120dip"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:text="@string/original_gravity"
-                    android:textSize="30dp" 
-                    android:gravity="center" />
-
-                <NumberPicker
-                    android:id="@+id/og_picker"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" 
-                    android:gravity="center"
-                    android:layout_gravity="center" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical" >
-
-                <TextView
-                    android:layout_width="120dip"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:text="@string/final_gravity"
-                    android:textSize="30dp" 
-                    android:gravity="center" />
-
-                <NumberPicker
-                    android:id="@+id/fg_picker"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:gravity="center" />
-            </LinearLayout>
-        </LinearLayout>
-
         <Button
-            android:id="@+id/buttonCalculate"
+            android:id="@+id/buttonABV"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="calculateABV"
             android:padding="20dip"
-            android:text="@string/button_calculate" />
-
-        <TextView
-            android:id="@+id/textABV"
-            android:layout_width="wrap_content"
+            android:text="@string/button_ABV" />
+        
+        <Button
+            android:id="@+id/buttonAbout"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="35dp"
-            android:ems="10" 
-            android:paddingTop="10dip"
-            android:gravity="center" />
+            android:onClick="showAbout"
+            android:padding="20dip"
+            android:text="@string/button_about" />
 
 </LinearLayout>
 

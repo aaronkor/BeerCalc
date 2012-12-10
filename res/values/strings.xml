@@ -5,4 +5,6 @@
     <string name="final_gravity">FG</string>
     <string name="abv">ABV</string>
     <string name="button_calculate">Calculate</string>
+    <string name="button_ABV">ABV Calculator</string>
+    <string name="button_about">About BeerCalc</string>
 </resources>
